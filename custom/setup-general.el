@@ -70,11 +70,11 @@
 (add-hook 'after-make-frame-functions 'my/disable-scroll-bars)
 
 ;; key bindings
-(when (eq system-type 'darwin) ;; mac specific settings
-  (setq mac-option-modifier 'alt)
-  (setq mac-command-modifier 'meta)
-  (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
-  )
+;; (when (eq system-type 'darwin) ;; mac specific settings
+;;   (setq mac-option-modifier 'alt)
+;;   (setq mac-command-modifier 'meta)
+;;   (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
+;;   )
 
 (add-to-list 'image-types 'svg)
 

@@ -1,0 +1,6 @@
+.cache/
+.uptimes.el
+elpa/
+projectile-bookmarks.eld
+snippets/
+transient/
